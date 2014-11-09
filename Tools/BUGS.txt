@@ -1,0 +1,3 @@
+In Diameter Editor, you should be carefull while editing the flags.
+FOr eg:, if you just want to remove vendor ID flag, then just
+change the flag value, dont edit the vendor ID to NULL.

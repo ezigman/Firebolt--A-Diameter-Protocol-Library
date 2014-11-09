@@ -1,0 +1,29 @@
+
+export SW_HOME=$HOME/sw
+
+######################################################################
+#Setup Python
+######################################################################
+export PYTHON_HOME=$SW_HOME/python2.7
+export PATH=$PYTHON_HOME/bin:$PATH
+export LIBPATH=$PYTHON_HOME/lib:$LIBPATH
+export LD_LIBRARY_PATH=$SW_HOME/lib:$PYTHON_HOME/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH_64=$PYTHON_HOME/lib:$LD_LIBRARY_PATH_64
+
+######################################################################
+#Setup Git
+######################################################################
+export GIT_HOME=$SW_HOME/git
+export PATH=$GIT_HOME/bin:$PATH
+
+
+######################################################################
+#Setup Vim 
+######################################################################
+export PATH=$SW_HOME/vim/bin:$PATH
+
+
+######################################################################
+#Setup Auror
+######################################################################
+export PYTHONPATH=$HOME:$PYTHONPATH
